@@ -11,30 +11,39 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-<style>
-body{
-  background-color: rgb(164, 76, 76);
-}
-.center{
-  text-align: center;
-}
-img{
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
+  <link href="styles.css" rel="stylesheet"/>
 </head>
-
 <body>
-  <div class="pe-auto bg-white
-  border-start-1 rounded-start rounded-end
+  <div class="bg-white
+  rounded-start rounded-end
   m-5 p-5">
-    <div text-align: center;>
-      <table class="table table-borderless">
-          <th scope="col"><a href="index.html">Home</a></th>
-          <th scope="col"><a href="experience.html">Experience</a></th>
-          <th scope="col"><a href="contact.html">Contact</a></th>
-      </table>
+  <table class="table table-borderless" style="max-width: 800px; margin: 0 auto; margin-bottom: 40px;">
+      <th scope="col"><a href="index.html" style="text-decoration: none">Home</a></th>
+      <th scope="col"><a href="experience.html" style="text-decoration: none">Experience</a></th>
+      <th scope="col"><a href="contact.html" style="text-decoration: none">Contact</a></th>
+  </table>
+  <h5 style="margin: 20px;">(My Own)Projects Experience</h5>
+  <div class="d-flex flex-wrap justify-content-evenly" style="align-items: center;">
+    <div class="card shadow-sm mb-5 bg-white rounded" style="width: 18rem;">
+      <img src="images/proj1.jpg" class="card-img-top" height="250" style="object-fit:cover">
+      <div class="card-body">
+        <h5 class="card-title">Battery Spot Welder</h5>
+        <p class="card-text">This is my first project that have potential to kill me. It's the DIY spot welder. First used for making my own LiFePO4 motorcycle battery.</p>
+      </div>
+    </div>
+    <div class="card shadow-sm mb-5 bg-white rounded" style="width: 18rem;">
+      <img src="images/proj2.jpg" class="card-img-top" height="250" style="object-fit:cover">
+      <div class="card-body">
+        <h5 class="card-title">3D Printer Enclosure</h5>
+        <p class="card-text">Next is 3D printer enclosure. It's purpose is to help control air temperature in order to prints ABS. It have 2 intake fans, filament dryer and air filtration build into it.</p>
+      </div>
+    </div>
+    <div class="card shadow-sm mb-5 bg-white rounded" style="width: 18rem;">
+      <img src="images/proj3.jpg" class="card-img-top" height="250" style="object-fit:cover">
+      <div class="card-body">
+        <h5 class="card-title">UPS</h5>
+        <p class="card-text">And this is my current project. It's UPS with 2000Watt of continuous 220VAC output power. 2 out of 4 batteries can be use as Ebike battery.</p>
+      </div>
     </div>
   </div>
 </body>

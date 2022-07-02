@@ -1,8 +1,10 @@
 body{
-  background-color: rgb(164, 76, 76);
+  background-image: url("images/Abstract-geometric-pattern.jpg");
+  background-size: 350px;
+  background-repeat: repeat;
+  background-color: burlywood;
   text-align: center;
 }
 img{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
